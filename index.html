@@ -19,13 +19,14 @@
         <input type="number" id="soluong" placeholder="Nhập vào số hàng x cột">
         <button id="play">CHƠI</button>
     </div>
-    <p id="luot"></p>
+    <p id="luot" onmousedown='return false;' onselectstart='return false;'></p>
     <div id="mess">
         <h1 id="userwin"></h1>
         <br>
         <button id="playagain">CHƠI LẠI</button>
     </div>
-    <div class="game" id="game">
+    <div class="game" id="game"  onmousedown='return false;' onselectstart='return false;'>
+        
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js.js"></script>
